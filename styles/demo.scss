@@ -1,0 +1,29 @@
+$header-bgcolor : rgba(183, 7, 7, 0.333);
+ $main-bgcolor : rgba(154, 232, 174, 0.333);
+$footer-color : rgba(20, 84, 179, 0.333);
+
+$para-fontsize : 140px;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background: $header-bgcolor;
+}
+
+main{
+    background: $main-bgcolor;
+}
+
+footer{
+    background: $footer-color;
+}
+
+#about p{
+    font-size: $para-fontsize;
+}
